@@ -9019,7 +9019,6 @@
   <block id="90ef461f23841e1c3dc26580247959fd" category="list-text">最小割り当て：最大スループット（ピーク）IOPSを決定するために「割り当てスペース」と「使用済みスペース」のどちらを使用するか。</block>
   <block id="f6d81ff30a84faf845ece49601784b0a" category="list-text">想定レイテンシ：ストレージの入出力処理の想定平均レイテンシ。</block>
   <block id="a4918d1e2d3364601712640b61668ac3" category="list-text">Shared：従来のQoSポリシーの場合、ポリシーグループに定義されたスループット値を複数のオブジェクトで共有するかどうか。</block>
-  <block id="3e8dedd9367cf7dda99efa4648b40a68" category="list-text">Associated Objects：QoSポリシーグループに割り当てられているワークロードの数。QoSポリシーグループ名の横にある展開ボタン（）をクリックすると、そのポリシーグループに関する詳細を確認できます。</block>
   <block id="3cd90a107dd83598c6f4b8687b8ad89e" category="list-text">Allocated Capacity：QoSポリシーグループ内のオブジェクトが現在使用しているスペースの量。</block>
   <block id="b0ce459d424ac8a8bf4972ced4fa34af" category="list-text">関連付けられているオブジェクト：QoSポリシーグループに割り当てられているワークロードの数。ボリュームとLUNに分けて表示されます。数字をクリックすると、選択したボリュームまたはLUNに関する詳細情報を表示するページに移動できます。</block>
   <block id="164468e54e30a0519a3dbef0f4a929a6" category="inline-link-macro">QoS ポリシーグループ情報を使用したパフォーマンスの管理</block>
@@ -11725,7 +11724,6 @@
   <block id="ec42faa3ead49a8b30ba8625345423b8" category="paragraph">監視対象のクラスタのリストが表示されます。</block>
   <block id="5627136cfa219c91be032bfe00b32183" category="list-text">[* Health: All Clusters]ビューで、MetroCluster レプリケーションの詳細を表示するクラスタの名前をクリックします。[*クラスタ/ヘルスの詳細*]ページで、[* MetroCluster レプリケーション*]タブをクリックします。</block>
   <block id="97e6ec6e4baff4ed6d4035d75d3c5ddd" category="paragraph">対応するクラスタオブジェクト領域のローカルサイトに、レプリケートされる MetroCluster 設定のトポロジが、データのミラー先であるリモートサイトの情報とともに表示されます。アイコンにカーソルを合わせると、生成されたイベントに関する詳細情報が表示されます。</block>
-  <block id="bcd77e19082ab48b2d951080763c8616" category="paragraph">に表示される情報を基に、レプリケーションの問題を修正できます。MetroCluster 構成でミラーリングの問題が見つかった場合は、 System Manager にログインするか ONTAP CLI にアクセスして問題を解決する必要があります。</block>
   <block id="38674b9db4ed0276a9c44646f4cf5741" category="list-text">Unified Manager サービスと関連する MySQL ソフトウェアを次の順序で停止します。<block ref="4e7847326e90b1f0063c89995d7982a7" prefix=" " category="inline-code"></block></block>
   <block id="00a0d3827fe90016d54a587539a1bb1f" category="paragraph"><block ref="3ea411a881e8de6734ab1f259a5102ce" prefix="" category="inline-code"></block></block>
   <block id="43e95b1db661f25b270f2cb998751a9c" category="list-text">を実行します<block ref="5203f21db9e105b1e8c04b88735772ca" prefix=" " category="inline-code"></block> バックアップディレクトリに対してSE Linuxタイプを設定するコマンドは、次のとおりです。</block>
@@ -11903,4 +11901,7 @@
   <block id="2d00b9d7d66bb4524df569339f8a571c" category="sidebar">ONTAP の問題を Unified Manager から直接修正または管理する</block>
   <block id="9578fa84ff359de78da764edb1c96f57" category="sidebar">クラスタの接続ステータスの定義</block>
   <block id="baf5d44e1d7facdf126425b9dacabd71" category="sidebar">データミラーリングのステータスの定義</block>
+  <block id="db3375d7decfbb29e343dc2213616878" category="paragraph">レプリケーションの問題を修正するには、クラスタ / 健常性の詳細ページに表示される情報を使用します。MetroCluster 構成でミラーリングの問題が見つかった場合は、 System Manager にログインするか ONTAP CLI にアクセスして問題を解決する必要があります。</block>
+  <block id="c438f7aec6602f34fb279fdfb89b02c7" category="list-text">Associated Objects：QoSポリシーグループに割り当てられているワークロードの数。展開ボタン（<block ref="5bc06105dc11797d871e45be810a1285" category="inline-image-macro-rx" type="image"></block>）をクリックし、ポリシーグループに関する詳細情報を表示します。</block>
+  <block id="c2c8552adcdf172b368e6fec79ced7cb" category="list-text">Windows管理者としてPowerShellまたはコマンドプロンプトを起動します。</block>
 </blocks>
