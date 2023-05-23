@@ -42,6 +42,7 @@
   <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/active-iq-unified-manager-912/data-protection/task_configure_connection_between_workflow_automation_um.html" />
   <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/active-iq-unified-manager-912/data-protection/task_configure_connection_between_workflow_automation_um.html" />
   <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/active-iq-unified-manager-912/data-protection/task_configure_connection_between_workflow_automation_um.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/active-iq-unified-manager-912/data-protection/task_configure_connection_between_workflow_automation_um.html" />
   <link rel='stylesheet' href='/ja-jp/active-iq-unified-manager-912/css/na-feature.css' type='text/css'><!-- Top level site integrations --><script>
     function addAdobeLaunch(adobeId) {
       var head = document.getElementsByTagName('head')[0];
@@ -214,7 +215,7 @@
     </li>
     
   </ul>
-</div><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager-912/issues/new?body=Page%3A%20[Workflow Automation と Unified Manager の間の接続の設定](https://docs.netapp.com/ja-jp/active-iq-unified-manager-912/data-protection/task_configure_connection_between_workflow_automation_um.html)&template=public-issue-template.md" class="page-nav-contribute-link" role="button"><img src="/ja-jp/active-iq-unified-manager-912/images/discuss-sm.svg" alt="" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager-912/blob/main/data-protection/task_configure_connection_between_workflow_automation_um.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/active-iq-unified-manager-912/images/edit-sm.svg" alt="" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/active-iq-unified-manager-912/images/article-sm.svg" alt="" class="github-icon" />寄稿者向けガイド</a></div>
+</div><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager-912.ja-jp/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/ja-jp/active-iq-unified-manager-912/data-protection/task_configure_connection_between_workflow_automation_um.html&page-title=Workflow Automation と Unified Manager の間の接続の設定" class="page-nav-contribute-link" role="button"><img src="/ja-jp/active-iq-unified-manager-912/images/discuss-sm.svg" alt="" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager-912/blob/main/data-protection/task_configure_connection_between_workflow_automation_um.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/active-iq-unified-manager-912/images/edit-sm.svg" alt="" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/active-iq-unified-manager-912/images/article-sm.svg" alt="" class="github-icon" />寄稿者向けガイド</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">このページ</div>
@@ -307,8 +308,8 @@
           data-did-you-mean="{suggestion} を検索"
           data-no-results-found-did-you-mean="{query} に該当する結果はありません。{suggestion} の間違いではありませんか?"
           data-results-found="{hitCount} 件見つかりました"
-          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
-          data-error-reset="Reset Search"
+          data-error-message="検索結果の取得中に問題が発生しました。もう一度お試しください。"
+          data-error-reset="検索をリセット"
           data-sk-es-pf-indexes=""
           data-flavor=""></div>
           <button class="n-property-bar__search-toggle-button" type="button">
@@ -349,6 +350,8 @@
           <a href="https://docs.netapp.com/es-es/active-iq-unified-manager-912/data-protection/task_configure_connection_between_workflow_automation_um.html" target="_self"><span translate="no" class="notranslate">Español</span></a>
         </li><li>
           <a href="https://docs.netapp.com/fr-fr/active-iq-unified-manager-912/data-protection/task_configure_connection_between_workflow_automation_um.html" target="_self"><span translate="no" class="notranslate">Français</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/it-it/active-iq-unified-manager-912/data-protection/task_configure_connection_between_workflow_automation_um.html" target="_self"><span translate="no" class="notranslate">Italiano</span></a>
         </li></ul>
     </div>
     <!-- End Language Selector -->
@@ -11444,7 +11447,7 @@
 <p class="page-details">
   
     
-    <time datetime="2023-05-18 18:27:31 +0000">05/18/2023</time>
+    <time datetime="2023-05-23 20:25:29 +0000">05/23/2023</time>
     
   
 
@@ -11472,7 +11475,7 @@
 </td>
 <td class="content">
 <div class="paragraph">
-<p>WFA 5.1 には「 WFA pack for managing Clustered Data ONTAP 」が含まれています。したがって、以前のようにこのパックを NetAppStorage Automation Store からダウンロードして、 WFA サーバに個別にインストールする必要はありません。  https://["ONTAP を管理するための WFA パック"]</p>
+<p>WFA 5.1 には「 WFA pack for managing Clustered Data ONTAP 」が含まれています。したがって、以前のようにこのパックを NetAppStorage Automation Store からダウンロードして、 WFA サーバに個別にインストールする必要はありません。  <a href="https://automationstore.netapp.com/pack-list.shtml">"ONTAP を管理するための WFA パック"</a></p>
 </div>
 </td>
 </tr>
@@ -11533,7 +11536,7 @@
 </ol>
 </div>
 <div class="paragraph">
-<p>http://["ネットアップのマニュアル： OnCommand Workflow Automation （現在のリリース）"]</p>
+<p><a href="http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61550">"ネットアップのマニュアル： OnCommand Workflow Automation （現在のリリース）"</a></p>
 </div>
 
     </article>

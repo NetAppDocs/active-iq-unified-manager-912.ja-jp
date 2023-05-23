@@ -42,6 +42,7 @@
   <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/active-iq-unified-manager-912/performance-checker/concept_metrocluster_configuration_verification.html" />
   <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/active-iq-unified-manager-912/performance-checker/concept_metrocluster_configuration_verification.html" />
   <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/active-iq-unified-manager-912/performance-checker/concept_metrocluster_configuration_verification.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/active-iq-unified-manager-912/performance-checker/concept_metrocluster_configuration_verification.html" />
   <link rel='stylesheet' href='/ja-jp/active-iq-unified-manager-912/css/na-feature.css' type='text/css'><!-- Top level site integrations --><script>
     function addAdobeLaunch(adobeId) {
       var head = document.getElementsByTagName('head')[0];
@@ -214,7 +215,7 @@
     </li>
     
   </ul>
-</div><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager-912/issues/new?body=Page%3A%20[MetroCluster 構成の検証](https://docs.netapp.com/ja-jp/active-iq-unified-manager-912/performance-checker/concept_metrocluster_configuration_verification.html)&template=public-issue-template.md" class="page-nav-contribute-link" role="button"><img src="/ja-jp/active-iq-unified-manager-912/images/discuss-sm.svg" alt="" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager-912/blob/main/performance-checker/concept_metrocluster_configuration_verification.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/active-iq-unified-manager-912/images/edit-sm.svg" alt="" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/active-iq-unified-manager-912/images/article-sm.svg" alt="" class="github-icon" />寄稿者向けガイド</a></div>
+</div><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager-912.ja-jp/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/ja-jp/active-iq-unified-manager-912/performance-checker/concept_metrocluster_configuration_verification.html&page-title=MetroCluster 構成の検証" class="page-nav-contribute-link" role="button"><img src="/ja-jp/active-iq-unified-manager-912/images/discuss-sm.svg" alt="" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager-912/blob/main/performance-checker/concept_metrocluster_configuration_verification.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/active-iq-unified-manager-912/images/edit-sm.svg" alt="" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/active-iq-unified-manager-912/images/article-sm.svg" alt="" class="github-icon" />寄稿者向けガイド</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">このページ</div>
@@ -307,8 +308,8 @@
           data-did-you-mean="{suggestion} を検索"
           data-no-results-found-did-you-mean="{query} に該当する結果はありません。{suggestion} の間違いではありませんか?"
           data-results-found="{hitCount} 件見つかりました"
-          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
-          data-error-reset="Reset Search"
+          data-error-message="検索結果の取得中に問題が発生しました。もう一度お試しください。"
+          data-error-reset="検索をリセット"
           data-sk-es-pf-indexes=""
           data-flavor=""></div>
           <button class="n-property-bar__search-toggle-button" type="button">
@@ -349,6 +350,8 @@
           <a href="https://docs.netapp.com/es-es/active-iq-unified-manager-912/performance-checker/concept_metrocluster_configuration_verification.html" target="_self"><span translate="no" class="notranslate">Español</span></a>
         </li><li>
           <a href="https://docs.netapp.com/fr-fr/active-iq-unified-manager-912/performance-checker/concept_metrocluster_configuration_verification.html" target="_self"><span translate="no" class="notranslate">Français</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/it-it/active-iq-unified-manager-912/performance-checker/concept_metrocluster_configuration_verification.html" target="_self"><span translate="no" class="notranslate">Italiano</span></a>
         </li></ul>
     </div>
     <!-- End Language Selector -->
@@ -11444,7 +11447,7 @@
 <p class="page-details">
   
     
-    <time datetime="2023-05-18 18:27:31 +0000">05/18/2023</time>
+    <time datetime="2023-05-23 20:25:29 +0000">05/23/2023</time>
     
   
 
@@ -11458,10 +11461,10 @@
 <p>MetroCluster over FCおよびIP構成でミラーされたワークロードにパフォーマンスの問題が発生しないようにするには、MetroCluster 構成が正しく設定されていることを確認します。また、構成を変更するか、ソフトウェアまたはハードウェアコンポーネントをアップグレードすることで、ワークロードのパフォーマンスを向上させることもできます。</p>
 </div>
 <div class="paragraph">
-<p>を参照してください https://["MetroCluster のドキュメント"] Fibre Channel（FC）スイッチ、ケーブル、スイッチ間リンク（ISL）など、MetroCluster 構成のクラスタのセットアップ手順について説明します。また、ローカルクラスタとリモートクラスタがミラーボリュームデータと通信できるように MetroCluster ソフトウェアを設定する際にも役立ちます。MetroCluster over IPの設定に固有の情報については、を参照してください https://["MetroCluster IP 構成をインストール"]。</p>
+<p>を参照してください <a href="https://docs.netapp.com/us-en/ontap-metrocluster/index.html">"MetroCluster のドキュメント"</a> Fibre Channel（FC）スイッチ、ケーブル、スイッチ間リンク（ISL）など、MetroCluster 構成のクラスタのセットアップ手順について説明します。また、ローカルクラスタとリモートクラスタがミラーボリュームデータと通信できるように MetroCluster ソフトウェアを設定する際にも役立ちます。MetroCluster over IPの設定に固有の情報については、を参照してください <a href="https://docs.netapp.com/us-en/ontap-metrocluster/install-ip/index.html">"MetroCluster IP 構成をインストール"</a>。</p>
 </div>
 <div class="paragraph">
-<p>MetroCluster 構成との要件をで比較できます https://["MetroCluster のドキュメント"] MetroCluster 構成のコンポーネントを変更またはアップグレードすることでワークロードのパフォーマンスが向上するかどうかを判断する。この比較は、次の点について回答を行う場合に役立ちます。</p>
+<p>MetroCluster 構成との要件をで比較できます <a href="https://docs.netapp.com/us-en/ontap-metrocluster/index.html">"MetroCluster のドキュメント"</a> MetroCluster 構成のコンポーネントを変更またはアップグレードすることでワークロードのパフォーマンスが向上するかどうかを判断する。この比較は、次の点について回答を行う場合に役立ちます。</p>
 </div>
 <div class="ulist">
 <ul>
@@ -11481,10 +11484,10 @@
 <p>関連情報 *</p>
 </li>
 <li>
-<p>MetroCluster コンポーネントの交換またはアップグレードについては、を参照してください https://["MetroCluster のドキュメント"]。</p>
+<p>MetroCluster コンポーネントの交換またはアップグレードについては、を参照してください <a href="https://docs.netapp.com/us-en/ontap-metrocluster/index.html">"MetroCluster のドキュメント"</a>。</p>
 </li>
 <li>
-<p>コントローラのアップグレードについては、を参照してください https://["スイッチオーバーとスイッチバックを使用して MetroCluster FC 構成のコントローラをアップグレードする"] および https://["スイッチオーバーとスイッチバックを使用したMetroCluster IP構成のコントローラのアップグレード"]</p>
+<p>コントローラのアップグレードについては、を参照してください <a href="https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/task_upgrade_controllers_in_a_four_node_fc_mcc_us_switchover_and_switchback_mcc_fc_4n_cu.html">"スイッチオーバーとスイッチバックを使用して MetroCluster FC 構成のコントローラをアップグレードする"</a> および <a href="https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/task_upgrade_controllers_in_a_four_node_ip_mcc_us_switchover_and_switchback_mcc_ip.html">"スイッチオーバーとスイッチバックを使用したMetroCluster IP構成のコントローラのアップグレード"</a></p>
 </li>
 </ul>
 </div>
