@@ -3141,7 +3141,6 @@
   <block id="788b4a09760f25fdcb777899cd7513ff" category="doc">Red Hat Enterprise Linux 7.x から 8.x へのホスト OS のアップグレード</block>
   <block id="1db66d7ea8f6111cd5dc19a357090311" category="paragraph">ここに記載する 2 つの方法の違いは、 Unified Manager のリストア処理を新しい 8.x サーバで実行する場合と同じサーバで実行する場合です。</block>
   <block id="62caf5dae7e9517d51e0ad9b1b63d502" category="paragraph">この作業では、 Red Hat Enterprise Linux 7.x システムで Unified Manager のバックアップを作成する必要があるため、 Unified Manager がオフラインになる時間が最小限になるように、アップグレードプロセス全体を実行する準備ができてからバックアップを作成します。Red Hat Enterprise Linux 7.x システムをシャットダウンしたあと、新しい Red Hat Enterprise Linux 8.x を起動するまではデータが収集されないため、その間のデータは Unified Manager UI に表示されません。</block>
-  <block id="5c8561df156cef765ea371a435526be5" category="paragraph">バックアップとリストアのプロセスの詳細な手順については、 Active IQ Unified Manager オンラインヘルプを参照してください。</block>
   <block id="c6d4bbfcfa03acaf56f29d4446ff8117" category="paragraph">* 新しいサーバを使用したホスト OS のアップグレード *</block>
   <block id="95756c28f62ecbf913324a758dcfab05" category="paragraph">Red Hat Enterprise Linux 8.x ソフトウェアをインストールできるスペアシステムがある場合は、 Red Hat Enterprise Linux 7.x システムが稼働している間にスペアシステムで Unified Manager のリストアを実行できるように、次の手順に従います。</block>
   <block id="664b9e4422f3233db722ffb0a28c3f91" category="list-text">新しいサーバに Red Hat Enterprise Linux 8.x ソフトウェアをインストールして設定します。</block>
@@ -3250,7 +3249,6 @@
   <block id="38e6765f489199cbac8d654040013a22" category="doc">Linux インストールのクイックスタート手順</block>
   <block id="d37bfa9087091a2643ebb8f003e74798" category="paragraph">インストールパッケージをダウンロードして、Red Hat Enterprise LinuxまたはCentOSの物理プラットフォームまたは仮想プラットフォームにUnified Managerをインストールできます。</block>
   <block id="1e496ca2f7a66d863132588473f14de2" category="section-title">システム要件</block>
-  <block id="1fd2b463bf2d975db21df998b30ccb30" category="list-text">オペレーティングシステム：OSインストーラの「ソフトウェアの選択*」オプションから「GUI付きサーバ」ベース環境を使用してインストールされた、x86_64アーキテクチャに基づくRed Hat Enterprise Linuxバージョン7.xおよび8.xまたはCentOSバージョン7.x</block>
   <block id="480c2974456cfdab733c75db7656f977" category="list-text">RAM ： 12 GB 、 CPU ：合計 9572MHz</block>
   <block id="dd6993bbff983390c9accd8acbf1ed57" category="list-text">空きディスクスペース：100GBのディスクスペースがに表示されます<block ref="7e1f8730cbdb33df27f5c6a989e8b48a" prefix=" " category="inline-code"></block> ディレクトリ。ルートパーティション内で50GB。別途マウントする必要があります<block ref="68ab1268abb7e5f5688810968df97d6b" prefix=" " category="inline-code"></block> および<block ref="72ab0dd25459f7bfe6f0f90e0af20861" prefix=" " category="inline-code"></block> ディレクトリに移動する場合は、を確認します<block ref="68ab1268abb7e5f5688810968df97d6b" prefix=" " category="inline-code"></block> 15 GB、<block ref="72ab0dd25459f7bfe6f0f90e0af20861" prefix=" " category="inline-code"></block> には16GB、およびが搭載されています<block ref="d42b9c57d24cf5db3bd8d332dc35437f" prefix=" " category="inline-code"></block> に10GBの空きスペースがあります。</block>
   <block id="dc351b2abbd920b35cff990b6582b9d7" category="inline-link-macro">互換性マトリックス</block>
@@ -3583,7 +3581,6 @@
   <block id="bd83ea599d4b1bc4b0405111a4f0e137" category="summary">Unified Manager をインストールする Linux システムには、特定のバージョンのオペレーティングシステムとサポートソフトウェアが必要です。</block>
   <block id="00b445c51af4d8484e4707ea89f09276" category="section-title">オペレーティングシステムソフトウェア</block>
   <block id="dbbb4ab63646c15ff10f8545fb7cdfb6" category="paragraph">Linux システムに、次のバージョンのオペレーティングシステムとサポートソフトウェアがインストールされている必要があります。</block>
-  <block id="840ec4a41a9ca59255cff17c52cb8305" category="list-text">x86_64アーキテクチャに基づくRed Hat Enterprise Linuxバージョン7.xおよび8.x</block>
   <block id="c103e3707bdc04abe684cb4ef4e84763" category="list-text">x86_64アーキテクチャに基づくCentOSバージョン7.x。CentOS ストリームはサポートされていません。</block>
   <block id="65f0429f6a80d2b534cf7c4fe5215206" category="paragraph">サポートされている Red Hat Enterprise Linux および CentOS のバージョンの最新のリストについては、 Interoperability Matrix を参照してください。</block>
   <block id="f7e4f466dd93f7fcac14a9d6f34be286" category="section-title">サードパーティ製ソフトウェア</block>
@@ -11904,4 +11901,8 @@
   <block id="db3375d7decfbb29e343dc2213616878" category="paragraph">レプリケーションの問題を修正するには、クラスタ / 健常性の詳細ページに表示される情報を使用します。MetroCluster 構成でミラーリングの問題が見つかった場合は、 System Manager にログインするか ONTAP CLI にアクセスして問題を解決する必要があります。</block>
   <block id="c438f7aec6602f34fb279fdfb89b02c7" category="list-text">Associated Objects：QoSポリシーグループに割り当てられているワークロードの数。展開ボタン（<block ref="5bc06105dc11797d871e45be810a1285" category="inline-image-macro-rx" type="image"></block>）をクリックし、ポリシーグループに関する詳細情報を表示します。</block>
   <block id="c2c8552adcdf172b368e6fec79ced7cb" category="list-text">Windows管理者としてPowerShellまたはコマンドプロンプトを起動します。</block>
+  <block id="92dcea1769a345e14c0d0007acfcd96b" category="list-text">Red Hat Enterprise Linuxバージョン7.xおよび8.0から8.6（x86_64アーキテクチャに基づく）</block>
+  <block id="7f65dca42f43809665db6567fcfbc285" category="list-text">オペレーティングシステム：Red Hat Enterprise Linuxバージョン7.xおよび8.0から8.6、またはx86_64アーキテクチャに基づくCentOSバージョン7.x。OSインストーラの* Software Selection *オプションから「Server with GUI」ベース環境を使用してインストールします</block>
+  <block id="e224c231f2865f8b120f3d2845da5134" category="paragraph">Unified Manager がインストールされている Red Hat Enterprise Linux 7.x システムを Red Hat Enterprise Linux 8.x にアップグレードする必要がある場合は、このトピックに記載されているいずれかの手順に従う必要があります。いずれの場合も、 Red Hat Enterprise Linux 7.x システムに Unified Manager のバックアップを作成し、そのバックアップを Red Hat Enterprise Linux 8.x システムにリストアする必要があります。サポートされるRed Hat Enterprise Linuxのバージョンは8.0から8.6です。</block>
+  <block id="06d1a3f5a2c1fab663374946419b7a46" category="paragraph">を参照してください <block ref="9a98c86d8dafdd1ad792c075346a9c0b" category="inline-link-macro-rx"></block> バックアッププロセスとリストアプロセスの詳細な手順を確認する必要がある場合。</block>
 </blocks>
