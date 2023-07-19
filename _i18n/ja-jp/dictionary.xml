@@ -1543,7 +1543,6 @@
   <block id="5a5094f086cece37d0843a7f44251cce" category="paragraph">Linux サーバと Windows サーバに Unified Manager をインストールした場合のデフォルトのバックアップメカニズムは MySQL データベースダンプです。ただし、Unified Managerで管理しているクラスタやノードの数が多い場合や、MySQLバックアップの完了に数時間かかる場合は、Snapshotコピーを使用してバックアップを実行できます。この機能は、Red Hat Enterprise Linux、CentOS Linuxシステム、およびWindowsで使用できます。</block>
   <block id="33fc247e555720879316017b076f2029" category="paragraph">データベースダンプバックアップは、バックアップディレクトリ内の 1 つのファイルとデータベースリポジトリディレクトリ内の 1 つ以上のファイルで構成されます。バックアップディレクトリ内のファイルは非常に小さく、バックアップを再作成するために必要なデータベースリポジトリディレクトリ内のファイルへのポインタのみが含まれます。</block>
   <block id="2f3b4c9172b561f3e884b4272c129fb6" category="paragraph">データベースバックアップの初回生成時は、 1 つのファイルがバックアップディレクトリに作成され、フルバックアップファイルがデータベースリポジトリディレクトリに作成されます。次にバックアップを生成するときは、 1 つのファイルがバックアップディレクトリに作成され、フルバックアップファイルとの差分を含む増分バックアップファイルがデータベースリポジトリディレクトリに作成されます。追加のバックアップを作成すると、次の図に示すように、最大保持設定までこのプロセスが繰り返されます。</block>
-  <block id="e7fbcbeb2e1e5f4c9bede03c1fbb8e41" category="image-alt">データベースのバックアップ</block>
   <block id="efbe49949ffa2f8a16f02f4ea7adc56a" category="paragraph">これらの 2 つのディレクトリ内のバックアップファイルは、名前を変更したり削除したりしないでください。それらの処理を行うと、以降のリストア処理が失敗します。</block>
   <block id="cb923ec5ab7e1a642e7b3ba98abfc4f1" category="paragraph">バックアップファイルをローカルシステムに書き込む場合、完全なリストアを必要とするシステム問題があるときに使用できるように、バックアップファイルをリモートの場所にコピーするプロセスを開始する必要があります。</block>
   <block id="c48f8fd51b32d584ba11d9662e34349b" category="paragraph">バックアップ処理を開始する前に、 Active IQ Unified Manager で整合性チェックが実行され、必要なすべてのバックアップファイルとバックアップディレクトリが存在し、書き込み可能であることが確認されます。また、バックアップファイルを作成できるだけの十分なスペースがシステムにあるかどうかも確認されます。</block>
@@ -11905,4 +11904,5 @@
   <block id="7f65dca42f43809665db6567fcfbc285" category="list-text">オペレーティングシステム：Red Hat Enterprise Linuxバージョン7.xおよび8.0から8.6、またはx86_64アーキテクチャに基づくCentOSバージョン7.x。OSインストーラの* Software Selection *オプションから「Server with GUI」ベース環境を使用してインストールします</block>
   <block id="e224c231f2865f8b120f3d2845da5134" category="paragraph">Unified Manager がインストールされている Red Hat Enterprise Linux 7.x システムを Red Hat Enterprise Linux 8.x にアップグレードする必要がある場合は、このトピックに記載されているいずれかの手順に従う必要があります。いずれの場合も、 Red Hat Enterprise Linux 7.x システムに Unified Manager のバックアップを作成し、そのバックアップを Red Hat Enterprise Linux 8.x システムにリストアする必要があります。サポートされるRed Hat Enterprise Linuxのバージョンは8.0から8.6です。</block>
   <block id="06d1a3f5a2c1fab663374946419b7a46" category="paragraph">を参照してください <block ref="9a98c86d8dafdd1ad792c075346a9c0b" category="inline-link-macro-rx"></block> バックアッププロセスとリストアプロセスの詳細な手順を確認する必要がある場合。</block>
+  <block id="fb433a9b7897073e3d41673a4e2e35a5" category="image-alt">バックアップリストア</block>
 </blocks>
