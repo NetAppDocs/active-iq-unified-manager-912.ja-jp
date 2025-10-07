@@ -7105,7 +7105,6 @@
   <block id="357a35aedd0c37deb3a881df778a9bb4" category="list-text">[* リストア ] をクリックします。</block>
   <block id="58c0234305a387b4aa60babbbd858295" category="paragraph">リストアプロセスが開始されます。リストアプロセスを完了するためにバックエンドでジョブが作成されます。</block>
   <block id="aa2724776cabef1aaa6642e924be93b0" category="list-text">ジョブの進捗状況を表示するには、左側のナビゲーションペインで* Protection &gt; Jobs *と進み、リストア・ジョブのステータスをジョブのリストから確認します。</block>
-  <block id="f19eba4a48c0d8762f03ea93717fbfea" category="paragraph">Cloud Volumes ONTAP HA クラスタ間のリストア処理が NDMP のエラーで失敗する場合は、ソースシステムのクラスタ管理 LIF と通信できるように、デスティネーションクラスタで明示的な AWS ルートを追加しなければならないことがあります。この設定手順は、BlueXPを使用して実行します。</block>
   <block id="74ba2177bbfe532b42b0f9def82a24e3" category="summary">リソースプールページには、既存のリソースプールとそのメンバーが表示されます。また、プロビジョニングのためにリソースプールを作成、監視、管理することもできます。</block>
   <block id="a760c169347b2ecd4636a37b7d04e1ce" category="doc">リソースプールページ</block>
   <block id="ba0dc3067ef6e03478bc295dbc0ce214" category="list-text">* 作成 * 。</block>
@@ -11907,4 +11906,5 @@
   <block id="06c70b026e4d10bfcd7be2ebfa770d1c" category="paragraph"><block ref="06c70b026e4d10bfcd7be2ebfa770d1c" category="inline-link-rx"></block></block>
   <block id="796f4a9be8e525f7e4d64c24bac529c9" category="paragraph"><block ref="796f4a9be8e525f7e4d64c24bac529c9" category="inline-link-rx"></block></block>
   <block id="03d53e406aee01a758a051ceaf737e76" category="paragraph">準拠はに基づいてい<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>ます。パネル上部の右矢印をクリックすると、[セキュリティ]ページにすべてのクラスタのセキュリティの詳細が表示されます。詳細については、を参照してください <block ref="c1debbda1f6c52f8ae88dec67250c58d" category="inline-link-macro-rx"></block>。</block>
+  <block id="323f966c65a63cb769e4f899cb19451f" category="paragraph">Cloud Volumes ONTAPのHAクラスタ間のリストア処理がNDMPのエラーで失敗する場合は、ソース システムのクラスタ管理LIFと通信できるように、デスティネーション クラスタで明示的なAWSのルートを追加しなければならないことがあります。この構成手順は、 NetAppコンソールを使用して実行します。</block>
 </blocks>
