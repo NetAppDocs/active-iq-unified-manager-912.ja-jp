@@ -29,7 +29,7 @@ MetroCluster over IP構成の場合は、左側のナビゲーションペイン
 * *保護*>*関係*>*関係：MetroCluster *ビュー
 
 
-詳細については、を参照してください link:../storage-mgmt/task_monitor_metrocluster_configurations.html#monitor-connectivity-issues-in-metrocluster-over-ip["MetroCluster over IPで接続の問題を監視します"]。
+詳細については、link:../storage-mgmt/task_monitor_metrocluster_configurations.html#monitor-connectivity-issues-in-metrocluster-over-ip-configuration["MetroCluster over IPで接続の問題を監視します"]を参照してください。
 
 
 
