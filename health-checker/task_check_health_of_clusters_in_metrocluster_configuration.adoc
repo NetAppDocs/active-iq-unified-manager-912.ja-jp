@@ -22,6 +22,7 @@ Active IQ Unified Manager （Unified Manager）を使用して、MetroCluster ov
 
 
 
+[[determining-cluster-health-in-metrocluster-over-fc-configuration]]
 == MetroCluster over FC構成でのクラスタの健全性を確認しています
 
 MetroCluster over FC構成でのクラスタの健常性を確認するには、次の手順を実行します。
@@ -60,6 +61,7 @@ image::../media/opm_um_mcc_replication_tab_png.gif[Unified Manager の MetroClus
 
 
 
+[[determining-cluster-health-in-metrocluster-over-ip-configuration]]
 == MetroCluster over IP構成でのクラスタの健全性を確認しています
 
 MetroCluster over IP構成でクラスタの健全性を確認するには、次の手順を実行します。

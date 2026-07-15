@@ -89,6 +89,7 @@ Active IQ Unified Manager には、の一連のAPIが用意されています `/
 |===
 
 
+[[output-sample-for-metrics-apis]]
 == 指標APIの出力例
 
 たとえば、などです `/datacenter/cluster/nodes/\{key}/metrics` APIがノードについて次の詳細を取得する（特にその他）。
@@ -166,6 +167,7 @@ NOTE: サマリ値の 95 パーセンタイルは、期間について収集さ�
 ----
 
 
+[[output-sample-for-analytics-apis]]
 == 分析APIの出力例を示します
 
 たとえば、などです `/datacenter/cluster/nodes/analytics` APIがすべてのノードに対して次の値を（特に）取得する。
@@ -208,6 +210,7 @@ NOTE: サマリ値の 95 パーセンタイルは、期間について収集さ�
 ----
 
 
+[[list-of-the-available-apis]]
 == 使用可能なAPIのリスト
 
 次の表で、について説明します `/metrics` および `/analytics` APIの詳細をご覧ください。

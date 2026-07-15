@@ -9550,7 +9550,6 @@
   <block id="c9ff37030a40a51615a055f7a8a42953" category="paragraph">これらの Active IQ イベントは既存の Unified Manager イベントと重複しないため、システム構成、ケーブル配線、ベストプラクティス、可用性の問題に関するインシデントやリスクを特定します。</block>
   <block id="29c4d087728ce94ddf83b473dec84df3" category="paragraph">プラットフォームイベントの有効化の詳細については、を参照してください <block ref="8658b0fde93c687ddd323db3f722b419" category="inline-link-macro-rx"></block>。ルールファイルのアップロードの詳細については、を参照してください <block ref="b01374e7e4b241354108fd5f79d4fe7d" category="inline-link-macro-rx"></block>。</block>
   <block id="9b2dd5f36ee111b85cbdd29e104e3e55" category="inline-link">NetApp Active IQ の略</block>
-  <block id="9d704a09e3781ec3b4883efbf66a03bc" category="paragraph">NetApp Active IQ は、ネットアップのハイブリッドクラウド全体にわたってストレージシステムの運用を最適化するのに役立つ、予測分析とプロアクティブなサポートを提供するクラウドベースのサービスです。を参照してください<block ref="598c2869fc03de80441fdb1c505b1b08" category="inline-link-rx"></block> を参照してください。</block>
   <block id="e78be7c786a595ecf85d670520670e03" category="summary">イベントが継続的に発生している状況では、イベントが指定したフィルタ条件を満たす場合にのみ、 Unified Manager はアラートを生成します。スペースのしきい値を超えたときやオブジェクトがオフラインになったときなど、アラートを生成するイベントを選択することができます。アラートをスクリプトに関連付けて、アラートがトリガーされたときにスクリプトが実行されるようにすることもできます。</block>
   <block id="5466ff3eb200eb7bcbb8dcc28afb32d8" category="doc">アラートとは</block>
   <block id="6b98fdbcc4abfd91989145ab4a3794b3" category="paragraph">イベントが継続的に発生している状況では、イベントが指定したフィルタ条件を満たす場合にのみ、 Unified Manager はアラートを生成します。アラートを生成するイベントを選択できます。たとえば、スペースのしきい値を超えた場合やオブジェクトがオフラインになった場合などです。アラートをスクリプトに関連付けて、アラートがトリガーされたときにスクリプトが実行されるようにすることもできます。</block>
@@ -11889,8 +11888,6 @@
   <block id="a5c178ca0adb1a0269f3bd998293dd38" category="paragraph">詳細な推奨事項と解決策については、（TR-4569）を参照してください<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block> 。</block>
   <block id="672333e5623d0406e27edefd4a600c08" category="paragraph">詳細については、準拠カテゴリに関するトピックおよびを参照してください<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block> 。</block>
   <block id="20dbca6ffc2afb63243f7244b8d18e68" category="paragraph">セキュリティに関する推奨事項については、を参照してください。<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block></block>
-  <block id="ee26087a8b7ec790988603a3298c45f3" category="paragraph"><block ref="ee26087a8b7ec790988603a3298c45f3" category="inline-link-rx"></block></block>
-  <block id="b1ef1e646481ec8adc66cc5d2b2018ba" category="paragraph">また、1つのUnified Managerインスタンスで監視できるノードの数には上限があり、この上限を超える場合は2つ目のUnified Managerインスタンスをインストールします。詳細については、を参照してください <block ref="30a299cd9b89fb73ae0b956f3afc43ad" category="inline-link-macro-rx"></block>。</block>
   <block id="06c70b026e4d10bfcd7be2ebfa770d1c" category="paragraph"><block ref="06c70b026e4d10bfcd7be2ebfa770d1c" category="inline-link-rx"></block></block>
   <block id="796f4a9be8e525f7e4d64c24bac529c9" category="paragraph"><block ref="796f4a9be8e525f7e4d64c24bac529c9" category="inline-link-rx"></block></block>
   <block id="03d53e406aee01a758a051ceaf737e76" category="paragraph">準拠はに基づいてい<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>ます。パネル上部の右矢印をクリックすると、[セキュリティ]ページにすべてのクラスタのセキュリティの詳細が表示されます。詳細については、を参照してください <block ref="c1debbda1f6c52f8ae88dec67250c58d" category="inline-link-macro-rx"></block>。</block>
@@ -11904,4 +11901,7 @@
   <block id="23fc5f285866f9923f82c49b366b4bfa" category="inline-link">Restart-VMGuestコマンドレットBroadcomのVMware vSphere PowerCLI コマンドレットリファレンス。</block>
   <block id="0da36de16be2fa7da01733b720576257" category="paragraph">VMwareの*ゲストOSの再起動*オプションを使用して、vSphereから仮想マシンを再起動することもできます。を参照してください<block ref="a33f828e317a613e852412bb653667c4" category="inline-link-rx"></block></block>
   <block id="a527ebab83d1a9eadfaa72bd8d759e9e" category="paragraph">詳細については、<block ref="60444ca73da53841cba391c890082cfa" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="2adbe8bdce2f61c208adbcdcc37e0d1e" category="paragraph">NetApp Active IQは、NetAppハイブリッドクラウド全体のストレージシステム運用を最適化するために、予測分析とプロアクティブなサポートを提供するクラウドベースのサービスです。詳細については、<block ref="0e9077c60daec97818e84f64654ad149" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="34d3c2d39d6d85670998be5649271fee" category="paragraph"><block ref="34d3c2d39d6d85670998be5649271fee" category="inline-link-rx"></block></block>
+  <block id="44147a2c9ef6251f322e3e18dbdf97ed" category="paragraph">さらに、Unified Managerの2つ目のインスタンスをインストールする前に、1つのUnified Managerインスタンスが監視できるノード数には制限があります。詳細については、<block ref="2c5cc47a014185f968ab45db0b0eacd1" category="inline-link-macro-rx"></block>を参照してください。</block>
 </blocks>

@@ -17,6 +17,7 @@ summary: SELinux を有効にしている場合、 NAS デバイスまたは SAN
 
 
 
+[[configuring-the-selinux-context-when-optnetappdata-is-mounted]]
 == の場合のSELinuxコンテキストの設定 `/opt/netapp/data` がマウントされている
 
 をマウント済みの場合 `/opt/netapp/data` SELinuxの場合、システムはに設定されます `Enforcing`のSELinuxコンテキストタイプを確認してください `/opt/netapp/data` がに設定されます `mysqld_db_t`を使用します。これは、データベースファイルの場所のデフォルトのコンテキスト要素です。
@@ -66,6 +67,7 @@ drwxr-xr-x. mysql root unconfined_u:object_r:mysqld_db_t:s0 /opt/netapp/data/
 ----
 
 
+[[configuring-the-selinux-context-when-optnetapp-is-mounted-and-optnetappdata-is-also-mounted-separately]]
 == の場合のSELinuxコンテキストの設定 `/opt/netapp` がマウントされています `/opt/netapp/data/` は別途マウントすることもできます
 
 このシナリオでは、最初にのコンテキストを設定する必要があります `/opt/netapp/data/` 前のセクションで説明したとおりです。の正しいコンテキストを設定したあと `/opt/netapp/data/`をクリックして、親ディレクトリを指定します `/opt/netapp` SELinuxコンテキストがに設定されていない `file_t`。
@@ -125,6 +127,7 @@ drwxr-xr-x. mysql root unconfined_u:object_r:usr_t:s0 /opt/netapp
 ----
 
 
+[[configuring-the-selinux-context-when-optnetapp-is-mounted-and-optnetappdata-is-not-mounted-separately]]
 == の場合のSELinuxコンテキストの設定 `/opt/netapp` がマウントされています `/opt/netapp/data/` は別途マウントされません
 
 をマウント済みの場合  `/opt/netapp` SELinuxの場合、システムはに設定されます `Enforcing`のSELinuxコンテキストタイプを確認してください `/opt/netapp` がに設定されます `mysqld_db_t`を使用します。これは、データベースファイルの場所のデフォルトのコンテキスト要素です。
